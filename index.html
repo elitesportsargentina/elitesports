@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Elite Sports</title>
+</head>
+<body>
+    <section class="seccion1" data-aos="zoom-in">
+        <div class="logo"><img class="imglogo" src="./images/es_sin fondo-02.png" alt="logo elite sports"></div>
+        <h1>ELITE SPORTS</h1>
+        <H2>CONECTANDO COMUNIDAD A TRAVÉS DEL DEPORTE</H2>
+        <button onclick="scrollToSection()">CONOCENOS</button>
+    </section>
+    <section id="about" class="seccion2" data-aos="fade-up">
+        <article class="about">
+            <div class="text-container">
+                <h2 class="titulo-seccion2">
+                MÁS QUE DEPORTE UNA ESCUELA DE VIDA
+                </h2>
+                <p class="parrafo-seccion2">
+                Somos Vicente y Joaquín, ex tenistas y entrenadores apasionados por el deporte. Creamos la iniciativa Elite Sports porque creemos firmemente que el deporte es una pieza fundamental en la formación de niños y adultos. El deporte no solo mejora la salud física, sino que también inculca valores esenciales como el respeto, el compañerismo y la responsabilidad.
+                Coordinamos actividades deportivas como tenis, fútbol, pádel y entrenamiento físico en distintos barrios y clubes. Nuestra misión es transmitir estos valores a cada uno de nuestros alumnos a través de clases y eventos, inspirándolos con las mismas enseñanzas y diversión que el deporte nos brindó a nosotros.
+                </p>
+            </div>
+            <div class="image-container"><img class="image-seccion2" src="./images/img_joa_vicen.jpg" alt="foto vicente y joaquin"></div>
+        </article>
+    </section>
+    <section class="seccion3">
+        <h3 class="titulo-seccion3" data-aos="fade-up" >
+            <span class="linea-arriba">NUESTROS</span>
+            <span class="linea-abajo">SERVICIOS</span>
+        </h3>
+        <main>
+            	<!--   Tarjetas-->
+            <div class="container-card" data-aos="fade-up">
+                <div class="card">
+                    <figure>
+                        <img src="./images/coordinacion1.png" alt="niños en una cancha de futbol">
+                    </figure>
+                    <div class="contenido-card">
+                        <h4>Coordinación Deportiva</h4>
+                        <p>Coordinamos deportes y actividades en barrios o clubes, como colonias de vacaciones, escuelita de futbol, padel o tenis. </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img src="./images/torneos.png" alt="evento de tenis">
+                    </figure>
+                    <div class="contenido-card">
+                        <h4>Eventos Deportivos</h4>
+                        <p>Gestionamos y coordinamos eventos deportivos personalizados, desde torneos internos hasta competiciones de gran escala. ¡Haz que tu evento sea inolvidable!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img src="./images/clasespar.png" alt="clase de padel">
+                    </figure>
+                    <div class="contenido-card">
+                        <h4>Clases Grupales e Individuales</h4>
+                        <p>Ofrecemos clases adaptadas a tus necesidades, tanto en grupo como individuales, para mejorar habilidades específicas y alcanzar tus objetivos deportivos.</p>
+                    </div>
+                </div>    
+        </main>
+    </section>
+        <section class="seccion4">
+            <div class="imagen" id="imagen1"data-aos="fade-right" >
+                <h5>Tenis</h5>
+            </div>
+            <div class="imagen" id="imagen2" data-aos="fade-left">
+                <h5>Pádel</h5>
+            </div>
+            <div class="imagen" id="imagen3" data-aos="fade-right">
+                <h5>Fútbol</h5>
+            </div>
+            <div class="imagen" id="imagen4" data-aos="fade-left">
+                <h5>Entrenamiento Físico</h5>
+            </div>
+            <h4 class="titulo-central">DEPORTES</h4>
+        </section>
+    <section class="seccion5">
+        <h5 class="titulo-seccion5" data-aos="fade-up">CONTACTO</h5>
+        <form action="https://formsubmit.co/elitesports2024@outlook.com" method="POST" data-aos="fade-up">
+
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name">
+
+            <label for="email">Correo Electrónico</label>
+            <input type="email" name="email" id="email">
+
+            <label for="numero">Número de Teléfono</label>
+            <input type="text" name="celular" id="numero">
+
+            <label for="coments">Consulta</label>
+            <textarea name="consulta" id="coments" cols="30" rows="5"></textarea>
+
+            <input class="btn" type="submit" value="Enviar">
+
+            <input type="hidden" name="_next" value="https://joaelizondo.github.io/elitesportsargentina/">
+
+            <input type="hidden" name="_captcha" value="false">
+
+        </form>
+        <div class="contact-info">
+            <a href="mailto:elitesports2024@outlook.com" target="_blank"><img src="./images/sobre.png" alt="sobre"></a>
+            <a href="https://wa.me/5491138641857" target="_blank"><img src="./images/whatsapp.png" alt="logo whatsapp"></a>
+            <a href="https://www.instagram.com/elitesportsargentina/" target="_blank"><img src="./images/logotipo-de-instagram.png" alt="logo instagram"></a>
+            <a href="https://www.tiktok.com/@elite.sports16?lang=es" target="_blank"><img src="./images/tik-tok.png" alt="logo tiktok"></a>
+        </div>
+    </section>
+    <script>
+        function scrollToSection() {
+            const section = document.getElementById("about");
+            const sectionTitle = section.querySelector("h2");
+            
+            const offset = sectionTitle.getBoundingClientRect().top + window.scrollY - 100; // Ajusta el valor de 100 para mayor o menor margen
+            window.scrollTo({ top: offset, behavior: "smooth" });
+        }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
